@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="footer.css" rel="stylesheet">
+</head>
+<body>
+    <footer style="background-image: url('/public/cows.jpg'); background-size: cover; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Quick Links -->
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/aboutus">About Us</a></li>
+                        <li><a href="/business">Our Business</a></li>
+                        <li><a href="/products">Our Products</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <!-- User Input Section -->
+                    <h4>Submit Your Feedback</h4>
+                    <form action="/submit" method="POST">
+                        <div class="form-group">
+                         
+                          <input type="text" name="name" placeholder="Your Name"><br><br>
+                          <input type="email" placeholder="Your email id"><br><br>
+                          <input type="number" placeholder="Contact Number"><br><br>
+                          <textarea class="form-control" id="feedback" name="feedback" rows="1" required placeholder="Your message"></textarea>
+                        </div><br>
+                        <button type="submit" class="btn btn-primary">Submit</button><br><br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <header2>
+          <div class="header-icons phone">
+              <!-- Phone Icon and Number -->
+              <div>
+                  <i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;
+                  <span>940-440-1030</span>
+              </div>
+              <!-- Message Icon and Link -->
+              <div class="message">
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:info@example.com">Contact Us</a>
+              </div>
+          </div>
+          <!-- Social Media Icons -->
+          <div class="header-icons social">
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          </div>
+      </header2>
+      </footer>
+      
+</body>
+</html>
