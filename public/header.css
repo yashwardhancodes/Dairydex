@@ -119,3 +119,30 @@ header {
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
     height: 90px;
 }
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #b1d235;
+    font-weight:700;
+    text-decoration: underline;
+    text-decoration-color: #b1d235;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-container {
+    height: 100%; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand{
+    height: 100%;
+    
+  }
+
+  .logo {
+    height: 100%;
+    width: relative;
+}

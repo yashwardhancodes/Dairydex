@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Quora</title>
+    <title>DairyDex</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -17,13 +17,13 @@
 <!-- Carausal -->
 <div id="carouselExampleInterval" class="carousel slide mb-4" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
+    <div class="carousel-item active" data-bs-interval="5000">
       <img src="public/carausal4.png" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="10000">
+    <div class="carousel-item" data-bs-interval="5000">
       <img src="public/carausal3.png" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="10000">
+    <div class="carousel-item" data-bs-interval="5000">
       <img src="/public/carausal2.png" class="d-block w-100" alt="...">
     </div>
   </div>
@@ -41,16 +41,7 @@
 
 
 
-<script>
-  // Get the current page name from Express
-  const currentPage = '<%= currentPage %>';
-  const navLinks = document.querySelectorAll('#nav2 .nav-link');
-  navLinks.forEach(link => {
-    if (link.href.includes(currentPage)) {
-      link.classList.add('active');
-    }
-  });
-</script>
+
 
 
 

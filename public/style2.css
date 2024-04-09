@@ -4,11 +4,59 @@
 .carousel-inner{
   height: 600px;
   width: auto;
-  margin-bottom: 1000px;
+  margin-bottom: 100px;
 }
 
 
 
+.photo{
+  height: fit-content;
+  width: auto;
+  align-self: center;
+}
 
 
+.content{
+  height: 300px;
+  width: auto;
+  padding-left: 30px;
+  margin-left: 10px;
+}
 
+.outer-div{
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.photo {
+  flex: 1 1 50%; /* Adjust the width as needed */
+  max-width: 50%; /* Adjust the maximum width */
+  padding: 20px;
+}
+
+.info {
+  flex: 1 1 50%; /* Adjust the width as needed */
+  max-width: 50%; /* Adjust the maximum width */
+  padding: 20px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .photo, .info {
+    flex: 1 100%;
+    max-width: 100%;
+  }
+}
