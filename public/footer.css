@@ -7,3 +7,21 @@ header2{
     justify-content: space-between;
    
 }
+
+.Quick-links li a {
+    text-decoration: none;
+}
+
+.footer-row
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer{
+    background-color: #101010;
+}
+
+.submit-feedback{
+    color: #b1d235;
+}

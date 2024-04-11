@@ -10,13 +10,13 @@
 
 </head>
 <body>
-    <footer style="background-image: url(/public/footer3.png); background-size:auto; ">
+    <footer class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer-row">
                 <div class="col-md-6">
                     <!-- Quick Links -->
-                    <h4>Quick Links</h4>
-                    <ul>
+                    <h4 class="submit-feedback">Quick Links</h4>
+                    <ul class="Quick-links">
                         <li><a href="/">Home</a></li>
                         <li><a href="/aboutus">About Us</a></li>
                         <li><a href="/business">Our Business</a></li>
@@ -25,14 +25,15 @@
                 </div>
                 <div class="col-md-6">
                     <!-- User Input Section -->
-                    <h4>Submit Your Feedback</h4>
+                    <h4 class="submit-feedback">Submit Your Feedback</h4>
                     <form action="/submit" method="POST">
                         <div class="form-group">
                          
                           <input type="text" name="name" placeholder="Your Name"><br><br>
-                          <input type="email" placeholder="Your email id"><br><br>
-                          <input type="number" placeholder="Contact Number"><br><br>
-                          <textarea class="form-control" id="feedback" name="feedback" rows="1" required placeholder="Your message"></textarea>
+                          <input type="email" name="email"  placeholder="Your email id"><br><br>
+                          <input type="number"  name="number" placeholder="Contact Number"><br><br>
+                          <input type="text" name="message" placeholder="feedback">
+
                         </div><br>
                         <button type="submit" class="btn btn-primary">Submit</button><br><br><br>
                     </form>

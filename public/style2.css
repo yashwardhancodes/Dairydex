@@ -34,18 +34,19 @@
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 200px;
 }
 
 .photo {
-  flex: 1 1 50%; /* Adjust the width as needed */
-  max-width: 50%; /* Adjust the maximum width */
+  flex: 1 1 50%; 
+  max-width: 50%; 
   padding: 20px;
 }
 
 .info {
-  flex: 1 1 50%; /* Adjust the width as needed */
-  max-width: 50%; /* Adjust the maximum width */
-  padding: 20px;
+  flex: 1 1 40%; 
+  max-width: 40%; 
+  padding: 10px;
 }
 
 .photo img {
@@ -60,3 +61,54 @@
     max-width: 100%;
   }
 }
+
+.vertical-line {
+  border-left: 2px solid #b1d235; 
+  height: 300px;
+  margin: 0 20px; 
+  box-shadow: black;
+}
+
+@media only screen and (max-width: 550px) {
+  .vertical-line {
+      display: none; /* vertical line on smaller screens */
+  }
+}
+
+
+.parallax {
+  height: 70%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+margin-bottom: 200px;
+}
+
+.parallax h1{
+  text-align: center;
+  color: white;
+  font-weight:bold;
+  padding-top: 60px;
+}
+
+
+.parallax p{
+  color: white;
+  padding-top: 60px;
+  font-size:larger;
+  width: 1200px;
+  padding-left: 300px;
+  text-align:center;
+}
+.parallax-1 {
+  background-image: url('parallax3.jpg');
+  height: 100vh; 
+  background-position: center;
+}
+
+
+
+
+
